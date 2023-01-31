@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Grape+Nuts&family=IM+Fell+English+SC&family=Monoton&family=Permanent+Marker&family=Rubik+Bubbles&family=Rubik+Moonrocks&display=swap");
+.welcome {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/welcome-img1.jpg");
+  background-color: black;
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.static-text{
+  font-family: "Monoton", cursive;
+  color: white;
+  font-size: 2rem;
+}
+
+.dynamic-text{
+  font-family: "Rubik Moonrocks", cursive;
+  font-size: 1rem;
+  margin-left: 8px;
+  color: rgb(231, 21, 137);
+}
+
+@media only screen and (max-width: 576px) {
+  .welcome {
+    background: url("../img/background-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content{
+    flex-direction: column;
+  }
+}

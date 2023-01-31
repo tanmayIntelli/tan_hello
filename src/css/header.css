@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Righteous&family=Special+Elite&display=swap");
+.nav-links {
+  justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+  background-color: #1f1e1e;
+  padding: 10px;
+}
+.container {
+  padding: 0px;
+}
+.header {
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: "Righteous", cursive;
+}
+a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  color: white;
+}

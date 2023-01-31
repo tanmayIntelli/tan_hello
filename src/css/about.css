@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Limelight&family=Grape+Nuts&family=Rancho&family=Monoton&family=Permanent+Marker&family=Rubik+Bubbles&family=Rubik+Moonrocks&display=swap");
+.content-link {
+  color: rgb(68, 68, 68);
+}
+.heading {
+  margin-top: 10px;
+  font-family: "Limelight", cursive;
+  font-size: 3rem;
+}
+.about-content {
+  padding: 20px 10px 10px 10px;
+  background: url("../img/spider-web.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Rancho", cursive;
+  font-size: 1.5rem;
+}
+#coffee {
+  text-decoration: line-through red;
+}
+.spider-quote {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/spider.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: black;
+  font-family: "Grape Nuts", cursive;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.spider-quote h1 {
+  font-size: 3.5rem;
+}
+@media only screen and (max-width: 576px) {
+  .spider-quote {
+    display: none;
+  }
+}

@@ -1,0 +1,42 @@
+.footer {
+  background: url("../img/footer1.png");
+  background-size: contain;
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: 5vh;
+}
+
+.footer-row {
+  width: 100%;
+  align-items: baseline;
+}
+
+.copyright {
+  font-family: "Special Elite", cursive;
+}
+
+.made-by {
+  font-size: 22px;
+  font-family: "Audiowide", cursive;
+}
+
+.social-media-icons {
+  font-size: 20px;
+}
+@media only screen and (max-width: 567px) {
+  .footer {
+    background: none;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright,
+  .made-by {
+    display: none;
+  }
+}
