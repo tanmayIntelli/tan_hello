@@ -5,6 +5,7 @@ import ThemeContext from "../utility/themeContext";
 
 const About = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
+
   return (
     <>
       <div className="about-parent">
@@ -19,6 +20,8 @@ const About = () => {
           }}
         >
           <div className="parallax">
+            <div className="circle1"></div>
+            <div className="circle2"></div>
             <div className="parallax-text">
               <TypeAnimation
                 sequence={["Hi! I am Tanmay", 1500, "Welcom to my World", 1500]}
