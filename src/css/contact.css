@@ -1,11 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+
 .contact {
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
-.contact-row {
-  margin-bottom: 20px;
+#contact-section {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .contact-card {
   justify-content: center;
@@ -14,7 +19,13 @@
   width: auto;
 }
 .contact-heading {
-  padding: 10px 0 10px 0;
+  width: 100%;
+}
+.heading {
+  font-family: "Jockey One", sans-serif;
+  text-align: left;
+  margin-top: 10px;
+  width: 90%;
 }
 .contact-form {
   padding: 40px;
@@ -22,9 +33,8 @@
   min-width: 40vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  background-color: #00509d;
+  background: linear-gradient(to right, #f2709c, #ff9472);
 }
 .contact-form:hover {
   background-color: #fdc500;
@@ -38,13 +48,14 @@
   font-size: 18px;
 }
 #form-name {
-  width: 33%;
+  width: 100%;
 }
 #form-email {
-  width: 66%;
+  width: 100%;
 }
 #form-message {
-  width: 99%;
+  width: 100%;
+  margin-bottom: 10px;
 }
 #submit-btn {
   padding: 10px;
@@ -59,6 +70,9 @@
   background-color: #2eff13;
 }
 
+.heading {
+  font-family: "Jockey One", sans-serif;
+}
 @media only screen and (max-width: 567px) {
   #form-name,
   #form-email,

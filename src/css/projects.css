@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+
+#projectHeading {
+  font-family: "Jockey One", sans-serif;
+  text-align: left;
+  margin-top: 10px;
+  width: 90%;
+}
