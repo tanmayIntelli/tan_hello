@@ -75,7 +75,9 @@ function Header() {
             style={{
               display: "flex",
               flex: "1",
-              backgroundColor: theme ? "#000000" : "rgb(185 62 62)"
+              background: theme
+                ? "linear-gradient(to right,#0f0c29,#302b63,#24243e)"
+                : "rgb(185 62 62)"
             }}
           >
             <IconButton
@@ -124,7 +126,9 @@ function Header() {
               "& .MuiDrawer-paper": {
                 boxSizing: "border-box",
                 width: drawerWidth,
-                backgroundColor: theme ? "#000000" : "rgb(185 62 62)",
+                background: theme
+                  ? "linear-gradient(to bottom,#0f0c29,#302b63,#24243e)"
+                  : "rgb(185 62 62)",
                 color: "white"
               }
             }}
