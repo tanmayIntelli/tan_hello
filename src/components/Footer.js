@@ -12,9 +12,6 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row className="footer-row">
-        <Col className="copyright" lg={4} sm={6} xs={12}>
-          <h6>No Copyright issues | Feel free to copy</h6>
-        </Col>
         <Col className="made-by" lg={4} sm={6} xs={12}>
           <h6>
             By Tanmay with{" "}
@@ -54,6 +51,10 @@ function Footer() {
               </a>
             </Col>
           </Row>
+        </Col>
+
+        <Col className="copyright" lg={4} sm={6} xs={12}>
+          <h6>No Copyright issues | Feel free to copy</h6>
         </Col>
       </Row>
     </Container>

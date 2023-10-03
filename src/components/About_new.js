@@ -24,7 +24,12 @@ const About = () => {
             <div className="circle2"></div>
             <div className="parallax-text">
               <TypeAnimation
-                sequence={["Hi! I am Tanmay", 1500, "Welcom to my World", 1500]}
+                sequence={[
+                  "Hi! I am Tanmay",
+                  1500,
+                  "Welcome to my World",
+                  1500
+                ]}
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
