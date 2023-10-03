@@ -5,7 +5,7 @@ const CardSkill = ({ text, imgUrl }) => {
   return (
     <div className="cardSkill-container">
       <div>
-        <p>{text}</p>
+        <p style={{ color: "black" }}>{text}</p>
       </div>
 
       <img src={imgUrl} className="cardSkill-img" alt="Javascript" />
