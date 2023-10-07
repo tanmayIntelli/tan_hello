@@ -41,13 +41,13 @@ const Projects = () => {
         />
         <Card
           title="Snoopit"
-          link="https://snoopit-6b1aa9746086.herokuapp.com/#/"
+          link="https://spotless-toga-goat.cyclic.app/"
           linkText="Demo"
           description={[
             "It is a convenient resource hub for front-end developers, crafted to centralise the articles for convenience.",
-            "Key technology: MongoDB, ExpressJS, ReactJS, NodeJS, AXIOS, Redux, hosted on Heroku"
+            "Key technology: MongoDB, ExpressJS, ReactJS, NodeJS, AXIOS, Redux, hosted on Cyclic"
           ]}
-          imgUrl="https://snoopit-6b1aa9746086.herokuapp.com/static/media/books.b7ff6d9400ef89fa4ffd.jpeg"
+          imgUrl="https://spotless-toga-goat.cyclic.app/static/media/books.b7ff6d9400ef89fa4ffd.jpeg"
         />
         <Card
           title="Show and Movie Store "
