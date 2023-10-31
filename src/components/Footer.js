@@ -54,7 +54,7 @@ function Footer() {
         </Col>
 
         <Col className="copyright" lg={4} sm={6} xs={12}>
-          <h6>No Copyright issues | Feel free to copy</h6>
+          <h6>No Copyright issue | Feel free to copy</h6>
         </Col>
       </Row>
     </Container>
