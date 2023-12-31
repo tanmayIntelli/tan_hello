@@ -39,6 +39,7 @@
   top: 0;
   left: 0;
   -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0,0,0);
   backface-visibility: hidden;
   padding: 5px;
 }
@@ -48,6 +49,7 @@
   height: 100%;
   background: #fff;
   -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0,0,0);
   backface-visibility: hidden;
   border-radius: 5px;
   box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
@@ -62,6 +64,7 @@
   font-family: "Montserrat";
   font-size: 18px;
   -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0,0,0);
   backface-visibility: hidden;
 }
 .front__text .front__text-header {
@@ -92,6 +95,7 @@
   font-size: 10px;
   color: tomato;
   -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0,0,0);
   backface-visibility: hidden;
   font-weight: 700;
   text-transform: uppercase;
